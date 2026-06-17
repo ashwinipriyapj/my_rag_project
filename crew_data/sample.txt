@@ -1,0 +1,8 @@
+CrewAI is a framework for orchestrating role-playing autonomous AI agents.
+It enables agents to work together as a crew to accomplish complex tasks.
+Each agent has a role, goal, backstory, and set of tools.
+LangChain is a framework for building applications powered by large language models.
+RAG stands for Retrieval-Augmented Generation. It helps LLMs give accurate answers by fetching relevant documents first.
+FAISS is a library for efficient similarity search over dense vectors.
+Groq provides fast LLM inference using custom hardware called LPUs.
+Tavily is a search API built specifically for AI agents to retrieve real-time web data.
