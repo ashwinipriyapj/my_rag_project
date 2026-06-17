@@ -6,7 +6,7 @@ load_dotenv(override=True)
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
-# Fix for Groq + CrewAI compatibility
+
 litellm.cache = None
 os.environ["LITELLM_CACHE"] = "false"
 
@@ -64,5 +64,5 @@ crew = Crew(
 )
 
 result = crew.kickoff()
-print("\n========== FINAL OUTPUT ==========")
+print("\nFINAL OUTPUT ")
 print(result)
